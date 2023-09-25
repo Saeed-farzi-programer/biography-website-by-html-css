@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'irsans';
+
+
+}
+
+@font-face {
+    font-family: 'irsans';
+    src: url('font/Sans a4fran3.eot');
+    src: url('font/Sans a4fran3.woff')format('woff');
+    src: url('font/Sans a4fran3.ttf')format('truetype');
+
+
+}
+
+body {
+    background-image: url(image/oxdOxgqxbKeNRtA.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+/*  *
+.logo,
+.home-father
+:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0px, 0px) rotate(10deg);
+    }
+
+    10% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    30% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    50% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    60% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    65% {
+        background-position: 100% 99%;
+    }
+
+    70% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    80% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    90% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(-60deg);
+    }
+}
+
+/******************************************************  header  **********************************************************************/
+.logo {
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 40px;
+
+
+}
+
+.fa-fa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.fa-log {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+
+}
+
+.logo1 {
+
+    background-color: rgba(184, 173, 173, 0);
+    
+    width: 100%;
+}
+
+/* .logo2 {
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 50%;
+    transform: scaleX(-1)
+} */
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 110px;
+    width: 100%;
+    /* position: sticky;
+top: 0;  */
+    z-index: 4;
+    background-color: rgb(0, 0, 0, .6);
+    word-spacing: -1px;
+
+
+
+}
+
+
+.navbar-3 {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.navbar-2 ul {
+    gap: 60px;
+    margin-right: 50px;
+
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 234, 255);
+    font-size: 16px;
+
+
+}
+
+.link:hover {
+    text-decoration: underline;
+}
+
+.home-father {
+    margin-right: 600px;
+    cursor: pointer;
+    padding: 10px 40px;
+    border-radius: 20px;
+    background-color: aqua;
+
+}
+
+.home-father:hover {
+
+    box-shadow: inset 0px 0px 20px 0px rgb(0, 0, 0);
+}
+
+.home {
+    text-decoration: none;
+}
+
+/********************************************************** about-us *******************************************************************/
+.about-us {
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, .4);
+
+
+}
+
+.head-fa {
+
+    border: 1px solid rgb(0, 0, 0, .3);
+}
+
+.header-about {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .9);
+    border-radius: 40px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-shadow: inset 0px 0px 20px 0px rgb(1, 232, 248);
+}
+
+
+
+.header-about h1 {
+
+    color: white;
+    text-align: center;
+}
+
+.text-below p {
+    color: white;
+    padding: 4% 20%;
+
+    text-align: justify;
+
+
+}
+
+
+/********************************************************************** css.slider ******************************************************/
+.container {
+
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 3px solid rgb(0, 234, 255);
+    border-radius: 30px;
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.h {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 40px;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 40px;
+    box-shadow: inset 0px 0px 20px 0px rgb(1, 232, 248);
+}
+
+
+
+.navigator {
+    display: flex;
+    position: absolute;
+    top: 93%;
+    left: 45.1%;
+}
+
+.navigator .bar {
+    height: 15px;
+    width: 15px;
+    background: rgb(0, 225, 255);
+    cursor: pointer;
+    border: 2px solid #ffffff;
+    border-radius: 40%;
+    margin-left: 8px;
+}
+
+.navigator .bar:hover {
+    background: #060000;
+}
+
+input[name="common"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides {
+
+    display: flex;
+    height: 100%;
+    width: 400%;
+}
+
+.slide {
+    width: 25%;
+    transition: 0.4s ease;
+}
+
+.slides img {
+    width: 100%;
+    height: 100%;
+}
+
+#btn1:checked~.first {
+    margin-left: 0;
+}
+
+#btn2:checked~.first {
+    margin-left: -25%;
+}
+
+#btn3:checked~.first {
+    margin-left: -50%;
+}
+
+#btn4:checked~.first {
+    margin-left: -75%;
+}
+
+/************************************************************* footer ****************************************************************/
+
+
+footer {
+    direction: rtl;
+    padding: 40px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .7);
+
+}
+
+.footer-svg {
+    border: 1px solid rgba(4, 227, 252, .3);
+}
+
+footer a {
+    text-decoration: none;
+    font-size: 13.5px;
+    color: rgb(0, 229, 255);
+    margin: .5%;
+    vertical-align: baseline;
+    cursor: pointer;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.footer-top a {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.footer-svg {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+    flex-wrap: wrap;
+    padding-left: 4px;
+    padding-right: 4px;
+
+}
+
+
+.footer-imgs {
+    vertical-align: middle;
+}
+
+footer svg {
+    fill: red;
+}
